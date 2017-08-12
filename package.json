@@ -1,16 +1,20 @@
 {
-  "name": "sexypanda",
+  "name": "pandastarter",
   "version": "1.0.0",
-  "description": "Sexypanda - My Personal Website ---",
+  "description": "PandaStarter is just another React starter kit using Webpack, Eslint and Babel.",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --content-base public/ --inline --hot --colors --port 3000 --open --history-api-fallback",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "Leonardo BALLAND",
-  "license": "ISC",
+  "keywords": ["react", "webpack", "eslint", "babel", "web application", "starterkit"],
+  "author": {
+    "name": "Leonardo BALLAND",
+    "email": "balland.leonardo@gmail.com",
+    "url": "https://leonardoballand.com"
+  },
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-loader": "^7.1.1",
